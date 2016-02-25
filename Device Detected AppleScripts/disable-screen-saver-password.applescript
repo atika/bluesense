@@ -22,7 +22,8 @@ script DisableScreenSaverPassword
 	
 	# Wake up the display
 	# https://github.com/kimhunter/SleepDisplay
-	do shell script ("/usr/local/bin/SleepDisplay -wake")
+	# do shell script ("/usr/local/bin/SleepDisplay -wake")
+	do shell script ("/usr/bin/caffeinate -u -t 1")
 	delay 3
 	
 	# Enter Screensaver Password
