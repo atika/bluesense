@@ -1,5 +1,11 @@
-# Send a notification with Growl
-# Download and install Growl Notify from here : http://growl.info/downloads
+(*
+BlueSense AppleScript
+Examples of AppleScript script to control Mac OS X that can be used with BlueSense for Mac (Bluetooth device detection).
+https://apps.inspira.io/bluesense/en/
+*)
+
+-- Send a notification with Growl
+-- Download and install Growl Notify here : http://growl.info/downloads
 
 on growl(title, message)
 	try
