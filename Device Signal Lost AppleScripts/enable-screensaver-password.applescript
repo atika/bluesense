@@ -12,7 +12,6 @@ https://apps.inspira.io/bluesense/en/
 script EnableScreenSaverPassword
 	try
 		-- method 1
-		(*
 		tell application "System Events"
 			tell security preferences
 				activate
@@ -20,12 +19,13 @@ script EnableScreenSaverPassword
 			end tell
 			tell application id "com.apple.ScreenSaver.Engine" to launch
 		end tell
-		*)
-		-- method 2
+		-- method 2 (change user defaults but do not prompt for the password)
+		(*
 		do shell script ("/usr/bin/defaults write com.apple.screensaver askForPassword -int 1")
 		do shell script ("/usr/bin/defaults write com.apple.screensaver askForPasswordDelay -int 5")
 		-- Launch the  ScreenSaver
 		tell application id "com.apple.ScreenSaver.Engine" to launch
+		*)
 	on error errString number errorNumber
 		log (errString)
 	end try
