@@ -1,6 +1,6 @@
 # BlueSense AppleScripts
 
-Exemples of AppleScripts that can be used with [BlueSense](https://apps.inspira.io/bluesense/en/) for Mac or elsewhere to control Mac OS X.
+Examples of AppleScripts that can be used with [BlueSense](https://apps.inspira.io/en/bluesense/) for Mac or elsewhere to control Mac OS X.
 
 [![BlueSense for Mac](../assets/bluesense-mac.gif)](http://apple.co/1deLPT5)
 
